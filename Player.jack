@@ -28,7 +28,6 @@ class Player {
             do rigidBody.moveLeft();
         }
         let location = Location.getDrawingLocation(rigidBody);
-        //do Sprites.drawPlayer(location);
         do Screen.setColor(true);
         do Screen.drawRectangle(rigidBody.getTopLeftX(), rigidBody.getTopLeftY(), rigidBody.getBottomRightX(), rigidBody.getBottomRightY());
         return;
